@@ -1,0 +1,117 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 360px;
+  background: var(--token-knPo78u9m6eO);
+  min-width: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 5px);
+  height: calc(100% + 5px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 5px;
+}
+.rootlong {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.rootlong > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 0;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.rootlong > :global(.__wab_flex-container) > *,
+.rootlong > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.rootlong > :global(.__wab_flex-container) > picture > img,
+.rootlong
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.freeBox__yFwLc {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.freeBoxlong__yFwLcNOeyg {
+  display: none;
+}
+.img__pCit {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  min-width: 0;
+}
+.img__pCit > picture > img {
+  object-fit: cover;
+}
+.freeBox__kKTtb {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.freeBox__kKTtb > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 5px);
+  height: calc(100% + 5px);
+}
+.freeBox__kKTtb > :global(.__wab_flex-container) > *,
+.freeBox__kKTtb > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__kKTtb > :global(.__wab_flex-container) > picture > img,
+.freeBox__kKTtb
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 5px;
+}
+.freeBoxlong__kKTtbNOeyg > :global(.__wab_flex-container) {
+  align-items: flex-start;
+}
+.slotTargetTitle {
+  font-weight: 600;
+  text-align: left;
+}
+.slotTargetAuthor {
+  color: var(--token-4D9Yws0NgN0Q);
+  font-size: 14px;
+}
+.slotTargetDescription {
+  color: var(--token-uadOSWyPh9SQ);
+  text-align: left;
+  font-size: 13px;
+}
+.slotTargetDescriptionlong {
+  text-align: left;
+}
